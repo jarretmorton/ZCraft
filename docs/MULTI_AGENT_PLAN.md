@@ -172,7 +172,7 @@ For each branch: scripted playtester runs the acceptance script → files defect
 ### Phase 4 — Serial integration
 Integrator merges approved branches **one at a time**, runs `npm test` (full regression) after each merge, resolves tile-ID/palette/save-format collisions (escalating genuine ambiguity), bumps `VERSION` in `js/main.js` per `CLAUDE.md`, and opens the PR with the required `https://github.com/jarretmorton/ZCraft/pull/new/<branch>` link.
 
-➡️ **Human Gate 4:** play the full five-level game (kids on the controller) and sign off. Merge to `master`.
+➡️ **Human Gate 4:** play the full five-level game (kids on the controller) and sign off. Merge to `main`.
 
 ---
 
